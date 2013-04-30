@@ -37,7 +37,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * change the rest of the code to be the same!
  */
 
-#define NUM_PLANES 3
+#define NUM_PLANES 4
 
 extern SDL_Surface *screen;
 SDL_Surface* bkg;
@@ -47,8 +47,8 @@ Uint16 snow_color;
 int wind = 0;
 int SNOW_on = 0;
 
-int NUM_FLAKES = 300;
-int PER_PLANE = 100; // should equal NUM_FLAKES/NUM_PLANES
+int NUM_FLAKES = 800;
+int PER_PLANE = 200; // should equal NUM_FLAKES/NUM_PLANES
 
 /* to get the real x location divide by 8 (>>3)
  */
